@@ -8,7 +8,6 @@
 A high-throughput distributed RL system designed to **experimentally evaluate scaling laws** for sample efficiency in on-policy algorithms.
 
 ## 🎯 Key Features
-
 - **Actor-Learner Separation**: IMPALA-inspired architecture enabling controlled variation of rollout, batching, and update frequencies
 - **Distributed Prioritized Experience Replay**: Lock-free ring buffers with shared memory, reducing learner idle time by ~30%
 - **High Throughput**: Achieves >1M environment steps/sec with near-linear scaling to 32 nodes
@@ -198,3 +197,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
+
+
+## SAST Rule Engine
+- OWASP Top 10 and CIS Benchmarks scanner
